@@ -208,8 +208,14 @@ ul {
     width: 80%;
   }
 }
-@media only screen and (max-width: 414) {
+@media only screen and (max-width: 414px) {
   html {
     font-size: 55%;
+  }
+  #map {
+    height: 100vh;
+  }
+  .loader {
+    height: 100vh;
   }
 }
