@@ -25,8 +25,10 @@
           type="text"
           class="input--ip-address"
           placeholder="Search for any IP address or domain"
+          name="input--ip"
         />
-        <button class="search--btn">
+        <label for="input--ip"></label>
+        <button class="search--btn" name="searchBtn">
           <img src="images/icon-arrow.svg" alt="" class="btn--icon" />
         </button>
       </form>
@@ -76,7 +78,7 @@
         <div class="error--info"></div>
       </div>
     </header>
-    <section id="map"></section>
+    <div id="map"></div>
     <div class="loader">
       <div class="circle"></div>
       <div class="circle circle2"></div>
