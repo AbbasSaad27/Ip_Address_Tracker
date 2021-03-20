@@ -78,9 +78,10 @@ const getIpAddress = async function(userInput = ``) {
 getIpAddress();
 searchBtn.addEventListener(`click`, (e) => {
     e.preventDefault();
+    const searchInput = searchBar.value;
+    if(!searchInput) return;
+    searchBar.value = ``;
     loader.style.display = 'flex';
     mapEL.style.display = 'none';
-    const searchInput = searchBar.value;
-    searchBar.value = ``;
     getIpAddress(searchInput);
 })

@@ -50,11 +50,12 @@ ul {
   justify-content: center;
 }
 .input--ip-address {
-  padding: 1rem 1.2rem;
+  padding: 0.8rem 1.2rem;
   border-radius: 1.5rem;
-  width: 45rem;
+  width: 50rem;
   font-size: 1.4rem;
   border: none;
+  font-family: inherit;
 }
 .input--ip-address::placeholder {
   font-family: "Rubik", sans-serif;
