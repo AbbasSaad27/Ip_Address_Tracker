@@ -27,7 +27,6 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   height: 100%;
-  overflow: hidden;
 }
 ul {
   list-style: none;
@@ -224,10 +223,8 @@ ul {
   html {
     font-size: 55%;
   }
-  #map {
-    height: 100vh;
-  }
-  .loader {
-    height: 100vh;
+  #map,
+  .loader{
+    height: 110vh;
   }
 }
