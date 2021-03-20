@@ -212,10 +212,8 @@ ul {
   html {
     font-size: 55%;
   }
-  #map {
-    height: 100vh;
-  }
+  #map, 
   .loader {
-    height: 100vh;
+    height: 110vh;
   }
 }
