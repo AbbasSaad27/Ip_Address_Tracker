@@ -51,7 +51,7 @@ ul {
 }
 .input--ip-address {
   padding: 1rem 1.2rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   width: 45rem;
   font-size: 1.4rem;
   border: none;
@@ -67,10 +67,10 @@ ul {
 .search--btn {
   background-color: black;
   border: none;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
   padding: 2rem;
-  margin-left: -1rem;
+  margin-left: -1.5rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
