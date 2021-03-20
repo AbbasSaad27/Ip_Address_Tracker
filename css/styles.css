@@ -51,9 +51,10 @@ ul {
 }
 .input--ip-address {
   padding: 1rem 1.2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   width: 45rem;
   font-size: 1.4rem;
+  border: none;
 }
 .input--ip-address::placeholder {
   font-family: "Rubik", sans-serif;
