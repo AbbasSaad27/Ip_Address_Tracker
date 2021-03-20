@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <script defer src="js/index.js"></script>
+    <title>FrontEndMentor || IP Address Tracker</title>
+  </head>
+  <body>
+    <header class="ip-address--component">
+      <h1 class="component--header">IP Address Tracker</h1>
+      <form class="search--ip">
+        <input
+          type="text"
+          class="input--ip-address"
+          placeholder="Search for any IP address or domain"
+        />
+        <button class="search--btn">
+          <img src="images/icon-arrow.svg" alt="" class="btn--icon" />
+        </button>
+      </form>
+      <div class="details">
+        <ul class="ip--details">
+          <li class="user--info">
+            <p class="info--title">ip address</p>
+            <p class="info">Loading</p>
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+          </li>
+          <li class="user--info">
+            <p class="info--title">location</p>
+            <p class="info">Loading</p>
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+          </li>
+          <li class="user--info">
+            <p class="info--title">Timezone</p>
+            <p class="info">Loading</p>
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+          </li>
+          <li class="user--info">
+            <p class="info--title">ISP</p>
+            <p class="info">Loading</p>
+            <div class="dot"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+          </li>
+        </ul>
+        <div class="error--info"></div>
+      </div>
+    </header>
+    <section id="map"></section>
+    <div class="loader">
+      <div class="circle"></div>
+      <div class="circle circle2"></div>
+      <div class="circle circle3"></div>
+    </div>
+  </body>
+</html>
